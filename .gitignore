@@ -1,0 +1,6 @@
+/vendor/
+composer.phar
+.env
+.idea
+/config/params.php
+/config/db_params.php
