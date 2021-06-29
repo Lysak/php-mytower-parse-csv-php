@@ -40,6 +40,7 @@ class SiteService
 
     /**
      * @return array
+     * @throws GuzzleException
      */
     public function calculateData(): array
     {

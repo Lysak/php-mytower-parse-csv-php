@@ -18,7 +18,7 @@ class View
         $full_path = APPLICATION_ROOT . $partial_path . Helpers::PHP_EXTENSION;
 
         if (file_exists($full_path)) {
-            return require_once($full_path); // ??
+            return require_once($full_path);
         } else {
            self::render('/views/site/error', ['view not found']);
         }

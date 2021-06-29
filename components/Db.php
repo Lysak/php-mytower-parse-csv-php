@@ -18,7 +18,7 @@ class Db
     public static function getSalt()
     {
         $paramsPath = PROJECT_ROOT . '/config/db_params.php';
-        $params = include($paramsPath); // tmp
+        $params = include($paramsPath);
         return $params['salt'];
     }
 }
